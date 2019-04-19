@@ -1,0 +1,9 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_EKTH3386
+
+config EKTH3386_CONFIG
+	string "EKTH3386 for Mediatek config"
+
+endif
